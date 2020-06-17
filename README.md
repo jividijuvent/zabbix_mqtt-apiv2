@@ -62,7 +62,13 @@ List of items that you can monitor:
     topics/max
 
 
+# Requirement
 
+1.Eny version of Mqtt that uses management api v2
+
+2.curl package on Mqtt host
+
+3.Zabbix server v4.2 (probably works on other versions)
 
 # Installation
 
