@@ -1,5 +1,5 @@
 # zabbix_mqtt-apiv2
-#Mqtt Monitoring With Zabbix
+Mqtt Monitoring With Zabbix
 
 This template created for monitoring Mqtt message broker v2.3 (any version that uses management api v2) and tested on zabbix server v4.2 but it probably works on other versions.
 
