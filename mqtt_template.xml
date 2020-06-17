@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2020-06-16T13:55:59Z</date>
+    <date>2020-06-17T08:09:33Z</date>
     <groups>
         <group>
             <name>Templates/Applications</name>
@@ -9,9 +9,10 @@
     </groups>
     <templates>
         <template>
-            <template>Template App Mqtt</template>
-            <name>Template App Mqtt</name>
-            <description>Created by Mjavad Madadi for Mqtt Management API v2</description>
+            <template>Template App Mqtt api v2</template>
+            <name>Template App Mqtt api v2</name>
+            <description>Created by jividijuvent for Mqtt Management API v2&#13;
+https://github.com/jividijuvent/zabbix_mqtt-apiv2</description>
             <groups>
                 <group>
                     <name>Templates/Applications</name>
@@ -3688,7 +3689,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template App Mqtt:mqtt.bytes.received.nodata(3)}=1</expression>
+            <expression>{Template App Mqtt api v2:mqtt.bytes.received.nodata(3)}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Mqtt Server is Down</name>
