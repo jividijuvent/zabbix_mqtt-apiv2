@@ -1,8 +1,8 @@
-#Mqtt Monitoring With Zabbix
+# Mqtt Monitoring With Zabbix
 
 This template created for monitoring Mqtt message broker v2.3 (any version that uses management api v2) and tested on zabbix server v4.2 but it probably works on other versions.
 
-Installation
+# Installation
 
 1.Upload userparameter file to zabbix agent directory that is included in agent’s config file and restart agent.
 
