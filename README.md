@@ -64,20 +64,20 @@ List of items that you can monitor:
 
 # Requirement
 
-1.Eny version of Mqtt that uses management api v2
+1. Any version of Mqtt that uses management api v2
 
-2.curl package on Mqtt host
+2. curl package on Mqtt host
 
-3.Zabbix server v4.2 (probably works on other versions)
+3. Zabbix server v4.2 (probably works on other versions)
 
 # Installation
 
 
-1.Upload userparameter file to zabbix agent directory that is included in agent’s config file and restart agent.
+1. Upload userparameter file to zabbix agent directory that is included in the agent’s config file and restart the agent.
 
-2.Upload template file to zabbix server. Add template to host that has mqtt running.
+2. Upload template file to zabbix server. Add template to host that has mqtt running.
 
-3.Add these macros in host configuration:
+3. Add these macros in host configuration:
 
 {$MQTT_IP} => Mqtt server ip address
 
@@ -88,7 +88,7 @@ List of items that you can monitor:
 {$MQTT_PASS} => Mqtt password
 
 
-After few moments you can see that items are getting values in Last data page.
+After a few moments, you can see that items are getting values in Last data page.
 
 
-I’m still wotking to imporve the template and create this template for other Mqtt versions.
+I’m still working to improve the template and create this template for other Mqtt versions.
